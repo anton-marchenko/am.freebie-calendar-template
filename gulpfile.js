@@ -1,5 +1,6 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
+const base64 = require('gulp-base64-inline');
 const browserSync = require('browser-sync').create();
 
 function style() {
@@ -9,15 +10,22 @@ function style() {
         .pipe(browserSync.stream())
 }
 
+function inlineImage() {
+    return gulp.src('./css/**/*.css')
+        .pipe(base64())
+        .pipe(gulp.dest('./css/'))
+}
+
 function watch() {
     browserSync.init({
         server: {
             baseDir: './'
         }
     });
-    gulp.watch('./scss/**/*.scss', style);
+    gulp.watch('./scss/**/*.scss', gulp.series(style, inlineImage));
     gulp.watch('./*.html').on('change', browserSync.reload);
 }
 
+exports.inline = inlineImage;
 exports.style = style;
 exports.watch = watch;
