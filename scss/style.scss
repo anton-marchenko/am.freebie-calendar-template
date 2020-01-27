@@ -1,0 +1,48 @@
+// === Common ===
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body {
+    display: flex;
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    line-height: 1.15;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(
+        to bottom,
+        rgb(207, 215, 208) 0%,
+        rgb(244, 195, 167) 23%,
+        rgb(224, 181, 166) 54%,
+        rgb(163, 162, 168) 74%,
+        rgb(99, 110, 127) 100%
+    );
+}
+
+// === / Common ===
+
+// === Calendar ===
+
+.calendar {
+    flex-shrink: 0;
+    border-radius: 5px;
+    background-color: #ffffff;
+    height: 600px;
+    width: 950px;
+}
+
+// === / Calendar ===
