@@ -3,10 +3,11 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     display: flex;
     min-height: 100%;
     width: 100%;
@@ -31,6 +32,14 @@ body {
         rgb(163, 162, 168) 74%,
         rgb(99, 110, 127) 100%
     );
+    font-family: "Gotham Rounded Medium";
+}
+
+@font-face {
+    font-family: "Gotham Rounded Medium";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Gotham Rounded Medium"), url("../fonts/Gotham_Rounded_Medium.woff") format("woff");
 }
 
 // === / Common ===
