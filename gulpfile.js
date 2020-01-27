@@ -1,11 +1,14 @@
 const gulp = require('gulp');
 const sass = require('gulp-sass');
+const sourcemaps = require('gulp-sourcemaps');
 const base64 = require('gulp-base64-inline');
 const browserSync = require('browser-sync').create();
 
 function style() {
     return gulp.src('./scss/**/*.scss')
+        .pipe(sourcemaps.init())
         .pipe(sass())
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest('./css'))
         .pipe(browserSync.stream())
 }
