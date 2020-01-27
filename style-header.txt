@@ -1,0 +1,12 @@
+/*!
+ * Freebie Calendar Template
+ * https://github.com/anton-marchenko/am.freebie-calendar-template
+ *
+ * Copyright (c) 2020 Anton Marchenko
+ * Released under MIT
+ * https://github.com/anton-marchenko/am.freebie-calendar-template/blob/master/LICENSE
+ *
+ * This file has been auto-generated from /scss/style.scss
+ *
+ */
+
