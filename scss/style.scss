@@ -42,9 +42,6 @@ body {
 // === Calendar ===
 
 .calendar-outer {
-    flex-shrink: 0;
-    border-radius: 5px;
-    background-color: #ffffff;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -52,6 +49,16 @@ body {
 .calendar-box,
 .events-box {
     padding: 20px;
+}
+
+.calendar-box {
+    border-radius: 5px 0 0 5px;
+    background-color: #f3f3f3;
+}
+
+.events-box {
+    border-radius: 0 5px 5px 0;
+    background-color: #3e454c;
 }
 
 // === / Calendar ===
