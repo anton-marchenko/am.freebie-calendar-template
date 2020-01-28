@@ -6,24 +6,18 @@
     box-sizing: border-box;
 }
 
-html,
-body {
-    display: flex;
-    min-height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 html {
-    line-height: 1.15;
-    justify-content: flex-start;
-    align-items: stretch;
+    height: 100%;
 }
 
 body {
+    display: grid;
+    align-content: center;
     justify-content: center;
-    align-items: center;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    min-height: 100%;
+    margin: 0;
     background: linear-gradient(
         to bottom,
         rgb(207, 215, 208) 0%,
@@ -32,7 +26,8 @@ body {
         rgb(163, 162, 168) 74%,
         rgb(99, 110, 127) 100%
     );
-    font-family: "Gotham Rounded Medium";
+    line-height: 1.15;
+    font-family: "Gotham Rounded Medium", sans-serif;
 }
 
 @font-face {
@@ -46,12 +41,17 @@ body {
 
 // === Calendar ===
 
-.calendar {
+.calendar-outer {
     flex-shrink: 0;
     border-radius: 5px;
     background-color: #ffffff;
-    height: 600px;
-    width: 950px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.calendar-box,
+.events-box {
+    padding: 20px;
 }
 
 // === / Calendar ===
