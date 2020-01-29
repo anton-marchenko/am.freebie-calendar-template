@@ -1,3 +1,14 @@
+// === Color palette ===
+
+$c-concrete: #f3f3f3; 
+$c-salmon: #ff7f66; 
+$c-mako: #3e454c; 
+$c-pale-sky: #6a7783;
+$c-regent-gray: #8a98a7;
+$c-outer-space: #2c3136;
+
+// === / Color palette ===
+
 // === Common ===
 
 *,
@@ -53,12 +64,14 @@ body {
 
 .calendar-box {
     border-radius: 5px 0 0 5px;
-    background-color: #f3f3f3;
+    background-color: $c-concrete;
+    color: $c-mako
 }
 
 .events-box {
     border-radius: 0 5px 5px 0;
-    background-color: #3e454c;
+    background-color: $c-mako;
+    color: $c-regent-gray;
 }
 
 // === / Calendar ===
