@@ -35,7 +35,13 @@ function watch() {
             baseDir: './'
         }
     });
-    gulp.watch('./scss/**/*.scss', gulp.series(style, inlineImage, addHeader));
+    gulp.watch(
+        [
+            './scss/**/*.scss',
+            './images/**/*.svg'
+        ],
+        gulp.series(style, inlineImage, addHeader)
+    );
     gulp.watch('./*.html').on('change', browserSync.reload);
 }
 
