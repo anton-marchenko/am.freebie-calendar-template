@@ -57,18 +57,23 @@ body {
     grid-template-columns: 1fr 1fr;
 }
 
-.calendar-box,
-.events-box {
+.calendar,
+.events {
     padding: 20px;
+    text-transform: uppercase;
+
+    .header {
+
+    }
 }
 
-.calendar-box {
+.calendar {
     border-radius: 5px 0 0 5px;
     background-color: $c-concrete;
     color: $c-mako
 }
 
-.events-box {
+.events {
     border-radius: 0 5px 5px 0;
     background-color: $c-mako;
     color: $c-regent-gray;
