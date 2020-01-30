@@ -1,8 +1,8 @@
 // === Color palette ===
 
-$c-concrete: #f3f3f3; 
-$c-salmon: #ff7f66; 
-$c-mako: #3e454c; 
+$c-concrete: #f3f3f3;
+$c-salmon: #ff7f66;
+$c-mako: #3e454c;
 $c-pale-sky: #6a7783;
 $c-regent-gray: #8a98a7;
 $c-outer-space: #2c3136;
@@ -63,14 +63,13 @@ body {
     text-transform: uppercase;
 
     .header {
-
     }
 }
 
 .calendar {
     border-radius: 5px 0 0 5px;
     background-color: $c-concrete;
-    color: $c-mako
+    color: $c-mako;
 }
 
 .events {
