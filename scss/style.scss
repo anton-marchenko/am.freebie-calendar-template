@@ -63,6 +63,18 @@ body {
     text-transform: uppercase;
 
     .header {
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        .prev-year,
+        .next-year {
+            color: $c-salmon;
+        }
+
+        .curr-month {
+            color: $c-pale-sky;
+        }
     }
 }
 
