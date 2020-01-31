@@ -95,9 +95,20 @@ body {
     .header {
         display: flex;
         justify-content: center;
+        position: relative;
         color: $c-salmon;
         font-size: 16px;
-        
+
+        &::after {
+            content: "";
+            display: block;
+            width: 30px;
+            height: 4px;
+            position: absolute;
+            bottom: 0;
+            border-radius: 10px;
+            background-color: $c-pale-sky;
+        }
     }
 }
 
