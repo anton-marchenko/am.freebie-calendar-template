@@ -54,26 +54,29 @@ body {
 
 .calendar-outer {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto 228px;
 }
 
 .calendar,
 .events {
-    padding: 20px;
+    padding-bottom: 20px;
     text-transform: uppercase;
 
     .header {
         display: flex;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        align-items: flex-end;
+        height: 98px;
+        padding-bottom: 23px;
 
         .prev-year,
         .next-year {
             color: $c-salmon;
+            font-size: 16px;
         }
 
         .curr-month {
             color: $c-pale-sky;
+            font-size: 24px;
         }
     }
 }
@@ -88,6 +91,14 @@ body {
     border-radius: 0 5px 5px 0;
     background-color: $c-mako;
     color: $c-regent-gray;
+
+    .header {
+        display: flex;
+        justify-content: center;
+        color: $c-salmon;
+        font-size: 16px;
+        
+    }
 }
 
 // === / Calendar ===
