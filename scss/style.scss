@@ -64,14 +64,21 @@ body {
 
 // === Calendar ===
 
-.calendar-outer {
+.calendar {
     display: grid;
     grid-template-columns: auto 228px;
+
+    &__main-content,
+    &__side-bar {
+        padding-bottom: 20px;
+    }
+
+    &__side-bar {
+    }
 }
 
-.calendar,
+.schedule,
 .events {
-    padding-bottom: 20px;
     text-transform: uppercase;
 
     .header {
@@ -93,10 +100,23 @@ body {
     }
 }
 
-.calendar {
+.schedule {
     border-radius: 5px 0 0 5px;
     background-color: $c-concrete;
     color: $c-mako;
+
+    &__el1 {
+        background-color: greenyellow;
+
+        &_size_s {
+            font-size: 20px;
+        }
+
+        &_hovered & {
+            background-origin: padding-box;
+        }
+    }
+
 }
 
 .events {
