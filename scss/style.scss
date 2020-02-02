@@ -76,9 +76,6 @@ body {
     &__side-bar {
         padding-bottom: 20px;
     }
-
-    &__side-bar {
-    }
 }
 
 .schedule,
@@ -89,17 +86,6 @@ body {
         display: flex;
         align-items: flex-end;
         padding-bottom: 23px;
-
-        .prev-year,
-        .next-year {
-            color: $c-salmon;
-            font-size: 16px;
-        }
-
-        .curr-month {
-            color: $c-pale-sky;
-            font-size: 24px;
-        }
     }
 }
 
@@ -107,6 +93,16 @@ body {
     border-radius: 5px 0 0 5px;
     background-color: $c-concrete;
     color: $c-mako;
+
+    &__year {
+        color: $c-salmon;
+        font-size: 16px;
+    }
+
+    &__curr-month {
+        color: $c-pale-sky;
+        font-size: 24px;
+    }
 
     &__el1 {
         background-color: greenyellow;
