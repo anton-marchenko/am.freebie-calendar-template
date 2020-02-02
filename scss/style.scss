@@ -196,16 +196,42 @@ body {
     border-radius: 3px;
 }
 
-.button_type_circular {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    background-color: $c-salmon;
-    border-radius: 50%;
-}
-
 .button_type_flat {
 
 }
 
+.button_size_normal {
+    padding: 10px;
+}
+
+.button_size_big {
+    padding: 20px;
+}
+
+.button_bg-color_salmon {
+    background-color: $c-salmon;
+}
+
+.button_bg-color_outer-space {
+    background-color: $c-outer-space;
+}
+
+.button_text-color_salmon {
+    color: $c-salmon;
+}
+
 // === / Button ===
+
+// === Mixs ===
+
+.circular {
+    border-radius: 50%;
+}
+
+.circular_size_normal {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+// === / Mixs ===
