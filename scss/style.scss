@@ -78,7 +78,19 @@ body {
     &__side-bar {
         padding-bottom: 20px;
     }
+
+    &__main-content {
+        border-radius: 5px 0 0 5px;
+    }
+
+    &__side-bar {
+        border-radius: 0 5px 5px 0;
+    }
 }
+
+// === / Calendar ===
+
+// === Events + Schedule ===
 
 .schedule,
 .events {
@@ -91,8 +103,11 @@ body {
     }
 }
 
+// === Events + Schedule ===
+
+// === Schedule ===
+
 .schedule {
-    border-radius: 5px 0 0 5px;
     background-color: $c-concrete;
     color: $c-mako;
 
@@ -107,8 +122,11 @@ body {
     }
 }
 
+// === / Schedule ===
+
+// === Events ===
+
 .events {
-    border-radius: 0 5px 5px 0;
     background-color: $c-mako;
     color: $c-regent-gray;
 
@@ -131,16 +149,10 @@ body {
         }
     }
 
-    &__content {
+    &__list {
         min-height: 238px;
         padding-top: 16px;
         padding-bottom: 30px;
-    }
-
-    &__list {
-        margin: 0 auto;
-        padding: 0;
-        list-style-type: none;
         display: flex;
         flex-direction: column;
         width: 154px;
@@ -181,7 +193,7 @@ body {
     }
 }
 
-// === / Calendar ===
+// === / Events ===
 
 // === Button ===
 
