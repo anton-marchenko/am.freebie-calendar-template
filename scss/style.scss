@@ -70,15 +70,7 @@ body {
 
 // === BEM Mixes ===
 
-.circular {
-    border-radius: 50%;
-}
-
-.circular_size_normal {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-}
+// ...
 
 // === / BEM Mixes ===
 
@@ -87,23 +79,18 @@ body {
 .button {
     @include reset-button;
 
+    display: inline-flex;
+    align-items: center;
     cursor: pointer;
 }
 
-.button_type_raised {
-    background-color: $c-concrete;
-    border-radius: 3px;
+.button_rounded {
+    border-radius: 4px;
 }
 
-.button_type_flat {
-}
-
-.button_size_normal {
-    padding: 10px;
-}
-
-.button_size_big {
-    padding: 20px;
+.button_size_35 {
+    height: 35px;
+    padding: 0 10px;
 }
 
 .button_bg-color_salmon {
@@ -129,6 +116,10 @@ body {
 
 .icon_img_cross {
     background-image: inline("../images/cross-circle.svg");
+}
+
+.icon_img_plus {
+    background-image: inline("../images/plus-circle.svg");
 }
 
 .icon_size_14 {
@@ -270,7 +261,6 @@ body {
 
     &__button {
         visibility: hidden;
-        display: flex;
         flex-shrink: 0;
     }
 
