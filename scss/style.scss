@@ -175,10 +175,11 @@ body {
         position: relative;
         flex-grow: 1;
         padding-top: 12px;
-        padding-bottom: 10px;
+        padding-bottom: 14px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        font-size: 14px;
 
         &::after {
             content: "";
