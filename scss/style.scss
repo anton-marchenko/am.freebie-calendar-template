@@ -86,12 +86,6 @@ body {
     cursor: pointer;
 }
 
-.button_icon_cross {
-    width: 14px;
-    height: 14px;
-    background-image: inline("../images/cross-circle.svg");
-}
-
 .button_type_raised {
     background-color: $c-concrete;
     border-radius: 3px;
@@ -121,6 +115,24 @@ body {
 }
 
 // === / Button ===
+
+// === Icon ===
+
+.icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.icon_img_cross {
+    background-image: inline("../images/cross-circle.svg");
+}
+
+.icon_size_14 {
+    width: 14px;
+    height: 14px;
+}
+
+// === / Icon ===
 
 // === Calendar ===
 
@@ -226,6 +238,7 @@ body {
 
     &__item {
         display: flex;
+        align-items: flex-start;
         padding-bottom: 16px;
     }
 
@@ -252,7 +265,8 @@ body {
     }
 
     &__button {
-       visibility: hidden;
+        visibility: hidden;
+        display: flex;
         flex-shrink: 0;
     }
 
