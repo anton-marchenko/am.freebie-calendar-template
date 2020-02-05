@@ -122,6 +122,19 @@ body {
     background-image: inline("../images/plus-circle.svg");
 }
 
+.icon_img_search {
+    background-image: inline("../images/search.svg");
+}
+
+.icon_img_arrow-right {
+    background-image: inline("../images/arrow-circle-right.svg");
+}
+
+.icon_img_arrow-left {
+    transform: rotate(180deg);
+    background-image: inline("../images/arrow-circle-right.svg");
+}
+
 .icon_size_14 {
     width: 14px;
     height: 14px;
