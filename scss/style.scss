@@ -200,6 +200,14 @@ body {
         flex-shrink: 0;
         margin-left: 4px;
     }
+
+    &__button {
+        visibility: hidden;
+    }
+
+    &__item:hover &__button {
+        visibility: visible;
+    }
 }
 
 // === / Entry List ===
