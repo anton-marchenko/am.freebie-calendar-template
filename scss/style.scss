@@ -204,26 +204,18 @@ body {
 
 // === / Entry List ===
 
-.delete-button {
-    @include reset-button;
-
-    width: 14px;
-    height: 14px;
-    line-height: 14px;
-    font-size: 9px;
-    background-color: $c-salmon;
-    color: $c-mako;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-
 // === Button ===
 
 .button {
     @include reset-button;
 
     cursor: pointer;
+}
+
+.button_icon_delete {
+    width: 14px;
+    height: 14px;
+    background-image: inline('../images/circle-cross.svg');
 }
 
 .button_type_raised {
