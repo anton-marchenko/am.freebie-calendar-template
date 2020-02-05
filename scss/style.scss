@@ -31,6 +31,10 @@ $c-outer-space: #2c3136;
     box-sizing: border-box;
 }
 
+:focus {
+    outline-color: $c-salmon;
+}
+
 html {
     height: 100%;
 }
