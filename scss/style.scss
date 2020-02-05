@@ -64,6 +64,64 @@ body {
 
 // === / Common ===
 
+// === BEM Mixes ===
+
+.circular {
+    border-radius: 50%;
+}
+
+.circular_size_normal {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+
+// === / BEM Mixes ===
+
+// === Button ===
+
+.button {
+    @include reset-button;
+
+    cursor: pointer;
+}
+
+.button_icon_cross {
+    width: 14px;
+    height: 14px;
+    background-image: inline("../images/cross-circle.svg");
+}
+
+.button_type_raised {
+    background-color: $c-concrete;
+    border-radius: 3px;
+}
+
+.button_type_flat {
+}
+
+.button_size_normal {
+    padding: 10px;
+}
+
+.button_size_big {
+    padding: 20px;
+}
+
+.button_bg-color_salmon {
+    background-color: $c-salmon;
+}
+
+.button_bg-color_outer-space {
+    background-color: $c-outer-space;
+}
+
+.button_text-color_salmon {
+    color: $c-salmon;
+}
+
+// === / Button ===
+
 // === Calendar ===
 
 .calendar {
@@ -193,16 +251,9 @@ body {
         }
     }
 
-    &__button-wrapper {
-        display: flex;
-        flex-direction: column;
-        width: 14px;
-        flex-shrink: 0;
-        margin-left: 4px;
-    }
-
     &__button {
-        visibility: hidden;
+       visibility: hidden;
+        flex-shrink: 0;
     }
 
     &__item:hover &__button {
@@ -211,61 +262,3 @@ body {
 }
 
 // === / Entry List ===
-
-// === Button ===
-
-.button {
-    @include reset-button;
-
-    cursor: pointer;
-}
-
-.button_icon_cross {
-    width: 14px;
-    height: 14px;
-    background-image: inline("../images/cross-circle.svg");
-}
-
-.button_type_raised {
-    background-color: $c-concrete;
-    border-radius: 3px;
-}
-
-.button_type_flat {
-}
-
-.button_size_normal {
-    padding: 10px;
-}
-
-.button_size_big {
-    padding: 20px;
-}
-
-.button_bg-color_salmon {
-    background-color: $c-salmon;
-}
-
-.button_bg-color_outer-space {
-    background-color: $c-outer-space;
-}
-
-.button_text-color_salmon {
-    color: $c-salmon;
-}
-
-// === / Button ===
-
-// === BEM Mixes ===
-
-.circular {
-    border-radius: 50%;
-}
-
-.circular_size_normal {
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-}
-
-// === / BEM Mixes ===
