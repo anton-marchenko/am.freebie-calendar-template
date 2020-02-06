@@ -82,26 +82,8 @@ body {
         border-radius: 4px;
     }
 
-    &_font-size_12 {
-        font-size: 12px;
-    }
-
-    &_font-size_14 {
-        font-size: 14px;
-    }
-
-    &_size_35 {
-        height: 35px;
-        padding: 0 10px;
-    }
-
-    &_size_45 {
-        height: 45px;
-        padding: 0 20px;
-    }
-
-    &_bg-color_salmon {
-        background-color: $c-salmon;
+    &_bg-color_mako {
+        background-color: $c-mako;
     }
 
     &_bg-color_outer-space {
@@ -271,8 +253,11 @@ body {
         display: flex;
     }
 
-    &__button-search {
+    &__action-button {
+        height: 45px;
+        padding: 0 20px;
         margin-right: 14px;
+        font-size: 14px;
     }
 }
 
@@ -316,8 +301,11 @@ body {
         padding-left: 40px;
     }
 
-    &__edit-button {
+    &__action-button {
+        height: 35px;
+        padding: 0 10px;
         margin-right: 14px;
+        font-size: 12px;
     }
 }
 
