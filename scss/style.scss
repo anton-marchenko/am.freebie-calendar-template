@@ -228,7 +228,12 @@ body {
     }
 
     &__buttons-panel {
-        padding-top: 36px;
+        margin-top: 36px;
+        display: flex;
+    }
+
+    &__button-search {
+        margin-right: 14px;
     }
 }
 
