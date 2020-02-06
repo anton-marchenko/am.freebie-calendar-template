@@ -86,9 +86,18 @@ body {
         font-size: 12px;
     }
 
+    &_font-size_14 {
+        font-size: 14px;
+    }
+
     &_size_35 {
         height: 35px;
         padding: 0 10px;
+    }
+
+    &_size_45 {
+        height: 45px;
+        padding: 0 20px;
     }
 
     &_bg-color_salmon {
@@ -102,6 +111,12 @@ body {
     &_text-color_salmon {
         color: $c-salmon;
     }
+
+    &__text {
+        &_right-indent {
+            margin-right: 12px;
+        }  
+    } 
 }
 
 /* === / Button === */
