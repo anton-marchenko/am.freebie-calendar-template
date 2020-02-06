@@ -231,9 +231,18 @@ body {
     &__list {
         min-height: 238px;
         padding-top: 16px;
-        padding-bottom: 30px;
+        padding-bottom: 36px;
         padding-left: 40px;
         padding-right: 17px;
+    }
+
+    &__buttons {
+        display: flex;
+        padding-left: 40px;
+    }
+
+    &__edit-button {
+        margin-right: 14px;
     }
 }
 
