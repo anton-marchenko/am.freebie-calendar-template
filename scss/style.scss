@@ -349,6 +349,7 @@ body {
         flex-shrink: 0;
     }
 
+    &__item_hovered &__remove-button,
     &__item:hover &__remove-button {
         visibility: visible;
     }
