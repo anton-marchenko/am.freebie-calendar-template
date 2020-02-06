@@ -23,7 +23,7 @@ $c-outer-space: #2c3136;
 
 // === / Mixins ===
 
-// === Common ===
+/* === Common === */
 
 *,
 *::before,
@@ -67,9 +67,9 @@ body {
     src: local("Gotham Rounded Medium"), url("../fonts/Gotham_Rounded_Medium.woff") format("woff");
 }
 
-// === / Common ===
+/* === / Common === */
 
-// === Button ===
+/* === Button === */
 
 .button {
     @include reset-button;
@@ -104,9 +104,9 @@ body {
     }
 }
 
-// === / Button ===
+/* === / Button === */
 
-// === Icon ===
+/* === Icon === */
 
 .icon {
     display: inline-block;
@@ -139,9 +139,9 @@ body {
     }
 }
 
-// === / Icon ===
+/* === / Icon === */
 
-// === Calendar ===
+/* === Calendar === */
 
 .calendar {
     display: grid;
@@ -165,9 +165,9 @@ body {
     }
 }
 
-// === / Calendar ===
+/* === / Calendar === */
 
-// === Events + Schedule ===
+/* === Events + Schedule === */
 
 .schedule,
 .events {
@@ -180,9 +180,9 @@ body {
     }
 }
 
-// === / Events + Schedule ===
+/* === / Events + Schedule === */
 
-// === Schedule ===
+/* === Schedule === */
 
 .schedule {
     background-color: $c-concrete;
@@ -199,9 +199,9 @@ body {
     }
 }
 
-// === / Schedule ===
+/* === / Schedule === */
 
-// === Events ===
+/* === Events === */
 
 .events {
     background-color: $c-mako;
@@ -243,9 +243,9 @@ body {
     }
 }
 
-// === / Events ===
+/* === / Events === */
 
-// === Entry List ===
+/* === Entry List === */
 
 .entry-list {
     display: flex;
@@ -289,4 +289,4 @@ body {
     }
 }
 
-// === / Entry List ===
+/* === / Entry List === */
