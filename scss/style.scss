@@ -251,6 +251,18 @@ body {
         width: 30px;
         height: 30px;
         justify-content: center;
+
+        &_type_today {
+            color: $c-concrete;
+            background-color: $c-salmon;
+            border-radius: 50%;
+            line-height: 15px;
+        }
+
+        &_type_with-events {
+            width: 20px;
+            border-bottom: 2px dotted $c-salmon;
+        }
     }
 
     &__buttons-panel {
