@@ -173,6 +173,7 @@ body {
 
     &__main-content {
         border-radius: 5px 0 0 5px;
+        padding: 0 36px;
     }
 
     &__side-bar {
@@ -203,6 +204,12 @@ body {
     background-color: $c-concrete;
     color: $c-mako;
 
+    &__header {
+        justify-content: space-between;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    
     &__year {
         color: $c-salmon;
         font-size: 16px;
