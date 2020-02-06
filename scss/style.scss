@@ -190,8 +190,6 @@ body {
     text-transform: uppercase;
 
     &__header {
-        display: flex;
-        align-items: flex-end;
         padding-bottom: 23px;
     }
 }
@@ -205,6 +203,8 @@ body {
     color: $c-mako;
 
     &__header {
+        display: flex;
+        align-items: flex-end;
         justify-content: space-between;
         padding-left: 32px;
         padding-right: 32px;
@@ -219,6 +219,17 @@ body {
         color: $c-pale-sky;
         font-size: 24px;
     }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    &__buttons-panel {
+        padding-top: 36px;
+    }
 }
 
 /* === / Schedule === */
@@ -231,6 +242,7 @@ body {
 
     &__header {
         display: flex;
+        align-items: flex-end;
         justify-content: center;
         position: relative;
         color: $c-salmon;
