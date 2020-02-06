@@ -173,7 +173,8 @@ body {
 
     &__main-content {
         border-radius: 5px 0 0 5px;
-        padding: 0 36px;
+        padding-left: 36px;
+        padding-right: 36px;
     }
 
     &__side-bar {
@@ -225,6 +226,26 @@ body {
         align-items: center;
         justify-content: space-between;
         margin-top: 30px;
+    }
+
+    &__days-of-the-week,
+    &__days-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 15px;
+        justify-items: center;
+        width: 560px;
+    }
+
+    &__days-of-the-week {
+        font-size: 20px;
+        margin-bottom: 36px;
+    }
+
+    &__day {
+        width: 30px;
+        height: 30px;
+        justify-content: center;
     }
 
     &__buttons-panel {
