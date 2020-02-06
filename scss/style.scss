@@ -273,12 +273,12 @@ body {
         }
     }
 
-    &__button {
+    &__remove-button {
         visibility: hidden;
         flex-shrink: 0;
     }
 
-    &__item:hover &__button {
+    &__item:hover &__remove-button {
         visibility: visible;
     }
 }
