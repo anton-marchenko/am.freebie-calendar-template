@@ -69,12 +69,6 @@ body {
 
 // === / Common ===
 
-// === BEM Mixes ===
-
-// ...
-
-// === / BEM Mixes ===
-
 // === Button ===
 
 .button {
@@ -83,31 +77,31 @@ body {
     display: inline-flex;
     align-items: center;
     cursor: pointer;
-}
 
-.button_rounded {
-    border-radius: 4px;
-}
+    &_rounded {
+        border-radius: 4px;
+    }
 
-.button_font-size_12 {
-    font-size: 12px;
-}
+    &_font-size_12 {
+        font-size: 12px;
+    }
 
-.button_size_35 {
-    height: 35px;
-    padding: 0 10px;
-}
+    &_size_35 {
+        height: 35px;
+        padding: 0 10px;
+    }
 
-.button_bg-color_salmon {
-    background-color: $c-salmon;
-}
+    &_bg-color_salmon {
+        background-color: $c-salmon;
+    }
 
-.button_bg-color_outer-space {
-    background-color: $c-outer-space;
-}
+    &_bg-color_outer-space {
+        background-color: $c-outer-space;
+    }
 
-.button_text-color_salmon {
-    color: $c-salmon;
+    &_text-color_salmon {
+        color: $c-salmon;
+    }
 }
 
 // === / Button ===
@@ -117,32 +111,32 @@ body {
 .icon {
     display: inline-block;
     background-repeat: no-repeat;
-}
 
-.icon_img_cross {
-    background-image: inline("../images/cross-circle.svg");
-}
+    &_img_cross {
+        background-image: inline("../images/cross-circle.svg");
+    }
 
-.icon_img_plus {
-    background-image: inline("../images/plus-circle.svg");
-}
+    &_img_plus {
+        background-image: inline("../images/plus-circle.svg");
+    }
 
-.icon_img_search {
-    background-image: inline("../images/search.svg");
-}
+    &_img_search {
+        background-image: inline("../images/search.svg");
+    }
 
-.icon_img_arrow-right {
-    background-image: inline("../images/arrow-circle-right.svg");
-}
+    &_img_arrow-right {
+        background-image: inline("../images/arrow-circle-right.svg");
+    }
 
-.icon_img_arrow-left {
-    transform: rotate(180deg);
-    background-image: inline("../images/arrow-circle-right.svg");
-}
+    &_img_arrow-left {
+        transform: rotate(180deg);
+        background-image: inline("../images/arrow-circle-right.svg");
+    }
 
-.icon_size_14 {
-    width: 14px;
-    height: 14px;
+    &_size_14 {
+        width: 14px;
+        height: 14px;
+    }
 }
 
 // === / Icon ===
