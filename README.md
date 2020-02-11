@@ -1,6 +1,8 @@
 [![Validates as HTML5](https://img.shields.io/badge/W3C-HTML5-brightgreen)](https://html5.validator.nu/?doc=https%3A%2F%2Fanton-marchenko.github.io%2Fam.freebie-calendar-template%2F) [![Validates as CSS level 3 + SVG](https://img.shields.io/badge/W3C-CSS3-brightgreen)](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fanton-marchenko.github.io%2Fam.freebie-calendar-template%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 # Freebie Calendar Template
+![Freebie Calendar Template Screenshot](./screenshot.png)
+
 HTML5/CSS3 calendar template based on Peter Filan`s free [design](http://www.peterfinlan.com/freebies/calendarUI.psd).
 
 # How can you use this project?
