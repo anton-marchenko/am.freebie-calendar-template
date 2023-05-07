@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/anton-marchenko/am.freebie-calendar-template#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.29.1",
     "gulp": "^4.0.2",
     "gulp-base64-inline": "^1.0.6",
     "gulp-header": "^2.0.9",
